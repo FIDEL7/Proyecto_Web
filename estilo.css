@@ -131,14 +131,14 @@ p {
 	*/
 
 	#div_logo {
-		width: 50px;
+		width: 6%;
 		float: left;
 		margin: 1.4px;
 		margin-right: 50px;
 	}
 
 	#div_principal {
-		width: 1050px;
+		width: 80%;
 		margin: 0 auto;
 	}
 
@@ -169,6 +169,7 @@ p {
 
 	#nav ul li {
 		display: inline-block;
+		width: 30%;
 	}
 
 	#nav ul li a {
@@ -231,10 +232,10 @@ p {
 		Clientes
 		*/
 		
-		#base {
+		.base {
 			clear: both;
 			margin: 0 auto;
-			width: 1050px;
+			width: 80%;
 		}
 
 		#contenerdor {
@@ -263,7 +264,7 @@ p {
 
 		#boton_cliente {
 			background: orange;
-			width: 95px;
+			width: 98px;
 			padding: 12px;
 			text-align: center;
 			margin-top: 5px;
@@ -273,4 +274,61 @@ p {
 			border-radius: 7px;
 		}
 
+		table {
+			margin-top: 40px;
+			text-align: center;
+			width: 100%;
+			background: #fff;
+		}
 
+		table td, table tr {
+			padding: 10px;
+			font-size: 16px;
+		}
+
+		#titulo_tabla {
+			background: #60CC65;
+			color: white;
+		}
+
+/*
+Eliminar cliente
+*/	
+
+#con_mensaje {
+	margin: 0 auto;
+	width: 65%;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.btn_verde {
+	background: #309C29;
+	width: 60px;
+	float: left;
+	float: right;
+	padding: 7px;
+	font-size: 13px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	margin-top: 90px;
+	margin-right: 70px;
+}
+
+.btn_rojo {
+	background: #CF1E1A;
+	width: 60px;
+	float: left;
+	padding: 7px;
+	font-size: 13px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	margin-top: 90px;
+	margin-left: 70px;
+}
+
+#con_mensaje a {
+	color: white;
+}

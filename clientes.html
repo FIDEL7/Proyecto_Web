@@ -10,7 +10,7 @@
 		<nav id="nav">
 			<div id="div_principal">
 				<div id="div_logo">
-					<a href=""><img class="normal" src="http://www.chamberos.net/wp-content/uploads/2015/04/chamberos-logo.png" width="57" height="57"></a> 
+					<a href="menu.html"><img class="normal" src="http://www.chamberos.net/wp-content/uploads/2015/04/chamberos-logo.png" width="57" height="57"></a> 
 				</div>
 				<ul id="izquierda">
 					<li><a href="">CLIENTS</a></li>
@@ -24,46 +24,43 @@
 		</nav>
 	</header>
 
-	<div id="base">
+	<div class="base">
 
 		<div id="contenerdor">
 			<div class="cliente">
 				<i class="fa fa-users"></i>
-				<h3 id="h3_cliente">CLIENTS</h3>
+				<h3 id="h3_cliente" class="letra">CLIENTS</h3>
 			</div>
 			<div class="cliente" id="btn_derecha">
 				<div id="boton_cliente">
-					<h5>NEW CLIENT</h5>
+					<h5 class="letra">NEW CLIENT</h5>
 				</div>
 			</div>
 		</div>
-<!-- 
-		<div>
-			<table>
-				<tr id="col_p">
-					<td>Invoice #</td>
-					<td>Client</td>
-					<td>Amount</td>
-					<td>Actions</td>
-				</tr>
+		<table>
+			<tr id="titulo_tabla">
+				<td class="letra">ID</td>
+				<td class="letra">FULL NAME</td>
+				<td class="letra">ACTIONS</td>
+			</tr>
 
-				<tr>
-					<td><?php echo $num1; ?></td>
-					<td><?php echo $n1; ?></td>
-					<td>$60</td>
-					<td><a href="edit_invoice.php"><i class="fa fa-pencil"></i></a><a href="delete_invoice.php?num=<?php echo $num1; ?>"><i class="fa fa-trash"></i></a></td>
-				</tr>
-
-				<tr>
-					<td><?php echo $num2; ?></td>
-					<td><?php echo $n2; ?></td>
-					<td>$225</td>
-					<td><a href="edit_invoice.php"><i class="fa fa-pencil"></i></a><a href="delete_invoice.php?num=<?php echo $num2; ?>"><i class="fa fa-trash"></i></a></td>
-				</tr>
-			</table>
-		</div>
-			!-->
+			<tr>
+				<td>207490931</td>
+				<td>Fidel Castro Chaves</td>
+				<td>
+					<a href=""><i class="fa fa-pencil"></i></a>
+					<a href="eliminar_cliente.html"><i class="fa fa-trash"></i></a>
+				</td>
+			</tr>
+			<tr>
+				<td>207470044</td>
+				<td>Kata Urpi Paniagua</td>
+				<td>
+					<a href=""><i class="fa fa-pencil"></i></a>
+					<a href="eliminar_cliente.html"><i class="fa fa-trash"></i></a>
+				</td>
+			</tr>
+		</table>			
 	</div>
-
 </body>
 </html>
