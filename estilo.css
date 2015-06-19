@@ -36,11 +36,6 @@ a:hover, a:active {
 	outline:0;
 }
 
-input:focus {
-	outline:0;
-	border:1px solid #04A4CC;
-}
-
 h1 { 
 	font-size: 2.2em; 
 } 
@@ -69,10 +64,16 @@ p {
 	LOGIN
 	*/
 
+	.input_login {
+		outline:0;
+		border:2px solid orange;
+		width: 176px;
+	}
+
 	#contenedor_principal {
-		position: absolute;
-		top: calc(45% - 100px);
-		left: calc(40% - 100px);
+		margin: auto;
+		text-align: center;
+		margin-top: 15%;
 	}
 
 	#contenedor_secundario {
@@ -104,14 +105,10 @@ p {
 		padding: 3px 15px 3px 15px;
 	}
 
-	input[type="text"], input[type="password"] {
+	input[type="text"], input[type="password"], input[type="number"] {
 		margin: 0 auto;
-		width: 176px;
-		float: left;
 		margin-top: 5px;
 		padding: 10px;
-		border: 2px solid orange;
-
 	}
 
 	#login {
@@ -243,13 +240,13 @@ p {
 			height: 100px;
 		}
 
-		.cliente {
+		#cliente {
 			float: left;
 			width: 160px;
 			margin-top: 40px;
 		}
 
-		.cliente i {
+		#cliente i {
 			font-size: 60px;
 		}
 
@@ -267,7 +264,7 @@ p {
 			width: 98px;
 			padding: 12px;
 			text-align: center;
-			margin-top: 5px;
+			margin-top: 50px;
 			float: right;
 			-webkit-border-radius: 7px;
 			-moz-border-radius: 7px;
@@ -298,7 +295,7 @@ Eliminar cliente
 #con_mensaje {
 	margin: 0 auto;
 	width: 65%;
-	margin-top: 70px;
+	margin-top: 10%;
 	text-align: center;
 }
 
@@ -331,4 +328,34 @@ Eliminar cliente
 
 #con_mensaje a {
 	color: white;
+}
+
+/*
+Nuevo Cliente	
+*/
+
+#nuevo_cliente {
+	float: left;
+	width: 200px;
+	margin-top: 40px;
+}
+
+#nuevo_cliente i {
+	font-size: 60px;
+}
+
+#con_datos {
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 5%;
+}
+
+.input_datos {
+	outline:0;
+	border:1px solid black;
+	width: 50%;
+}
+
+.letra_datos {
+	margin-top: 1%;
 }
