@@ -105,10 +105,21 @@ LOGIN
 	padding: 3px 15px 3px 15px;
 }
 
-input[type="text"], input[type="password"], input[type="number"], input[type="phone"] {
+input[type="text"], input[type="password"], input[type="number"], 
+input[type="phone"], input[type="date"] {
 	margin: 0 auto;
 	margin-top: 5px;
 	padding: 10px;
+}
+
+textarea {
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 10px;
+	outline:0;
+	border:1px solid black;
+	max-width: 96.5%;
+	width: 96.5%;
 }
 
 #login {
@@ -261,7 +272,6 @@ Clientes
 
 #boton_cliente {
 	background: orange;
-	width: 98px;
 	padding: 12px;
 	text-align: center;
 	margin-top: 50px;
@@ -310,7 +320,7 @@ Eliminar cliente
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
-	margin-top: 90px;
+	margin-top: 10%;
 }
 
 .btn_rojo {
@@ -323,7 +333,7 @@ Eliminar cliente
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
-	margin-top: 90px;
+	margin-top: 10%;
 }
 
 #con_mensaje a {

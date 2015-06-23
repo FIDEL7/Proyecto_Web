@@ -29,31 +29,46 @@
 		<div id="contenerdor">
 			<div class="cliente">
 				<i class="fa fa-users"></i>
-				<h3 id="h3_cliente" class="letra">NEW CLIENT</h3>
+				<h3 id="h3_cliente" class="letra">INVOICES</h3>
 			</div>
-			<a href="nuevo_cliente.html">
+			<a href="nueva_factura.html">
 				<div id="btn_derecha">
 					<div id="boton_cliente">
-						<h5 class="letra">NEW CLIENT</h5>
+						<h5 class="letra">NEW INVOICE</h5>
 					</div>
 				</div>
 			</a>
 		</div>
+		<table>
+			<tr id="titulo_tabla">
+				<td class="letra">NUMBER</td>
+				<td class="letra">CLIENT</td>
+				<td class="letra">FECHA</td>
+				<td class="letra">AMOUNT</td>
+				<td class="letra">ACTIONS</td>
+			</tr>
 
-		<div id="con_datos">
-			<h5>FIRST NAME</h5>
-			<input class="input_datos" type="text" placeholder="First Name" class="letra">
-			<h5 class="letra_datos">LAST NAME</h5>
-			<input class="input_datos" type="text" placeholder="Last Name" class="letra">
-			<h5 class="letra_datos">TELEPHONE NUMBER</h5>
-			<input class="input_datos" type="phone" placeholder="Telephone Number" class="letra">
-			<h5 class="letra_datos">ID</h5>
-			<input class="input_datos" type="text" placeholder="Id" class="letra">
-			<a href="" class="letra"><div class="btn_rojo">CANCEL</div></a>
-			<a href="" class="letra"><div class="btn_verde">SAVE</div></a>
-		</div>
-
+			<tr>
+				<td>001</td>
+				<td>Fidel Castro</td>
+				<td>01/02/1996</td>
+				<td>$250</td>
+				<td>
+					<a href="editar_factura.html"><i class="fa fa-pencil"></i></a>
+					<a href="eliminar_cliente.html"><i class="fa fa-trash"></i></a>
+				</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>Kata Urpi</td>
+				<td>12/09/1995</td>
+				<td>$400</td>
+				<td>
+					<a href="editar_cliente.html"><i class="fa fa-pencil"></i></a>
+					<a href="eliminar_cliente.html"><i class="fa fa-trash"></i></a>
+				</td>
+			</tr>
+		</table>			
 	</div>
-
 </body>
 </html>
