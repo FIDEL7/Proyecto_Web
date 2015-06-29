@@ -14,6 +14,10 @@ body {
 	color:#444;
 }
 
+textarea {
+	font: normal normal normal 13.3333330154419px/normal Arial;
+}
+
 img {
 	max-width:100%;
 	vertical-align:bottom;
@@ -106,10 +110,11 @@ LOGIN
 }
 
 input[type="text"], input[type="password"], input[type="number"], 
-input[type="phone"], input[type="date"] {
+input[type="tel"], input[type="date"] {
 	margin: 0 auto;
 	margin-top: 5px;
 	padding: 10px;
+	font: normal normal normal 13.3333330154419px/normal Arial;
 }
 
 textarea {
@@ -361,7 +366,8 @@ Nuevo Cliente
 }
 
 .letra_datos {
-	margin-top: 1%;
+	margin-top: 2%;
+	font-family: gobold
 }
 
 #con_datos a {

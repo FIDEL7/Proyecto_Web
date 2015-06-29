@@ -29,43 +29,35 @@
 		<div id="contenerdor">
 			<div class="cliente">
 				<i class="fa fa-users"></i>
-				<h3 id="h3_cliente" class="letra">CLIENTS</h3>
+				<h3 id="h3_cliente" class="letra">EDIT CHAMBA</h3>
 			</div>
-			<a href="nuevo_cliente.html">
+			<a href="nueva_chamba.html">
 				<div id="btn_derecha">
 					<div id="boton_cliente">
-						<h5 class="letra">NEW CLIENT</h5>
+						<h5 class="letra">NEW CHAMBA</h5>
 					</div>
 				</div>
 			</a>
 		</div>
-		<table>
-			<tr id="titulo_tabla">
-				<td class="letra">ID</td>
-				<td class="letra">FULL NAME</td>
-				<td class="letra">TELEPHONE NUMBER</td>
-				<td class="letra">ACTIONS</td>
-			</tr>
 
-			<tr>
-				<td>207490931</td>
-				<td>Fidel Castro</td>
-				<td>83151195</td>
-				<td>
-					<a href="editar_cliente.html"><i class="fa fa-pencil"></i></a>
-					<a href="eliminar_cliente.html"><i class="fa fa-trash"></i></a>
-				</td>
-			</tr>
-			<tr>
-				<td>207470044</td>
-				<td>Noelia Urpi</td>
-				<td>89517281</td>
-				<td>
-					<a href="editar_cliente.html"><i class="fa fa-pencil"></i></a>
-					<a href="eliminar_cliente.html"><i class="fa fa-trash"></i></a>
-				</td>
-			</tr>
-		</table>			
+		<div id="con_datos">
+			<h5 class="letra_datos">CLIENT</h5>
+			<input class="input_datos" type="text" class="letra" list="clientes" value="Fidel Castro">
+			<datalist id="clientes">
+    			<option value="Fidel Castro">
+    			<option value="Noelia Urpi">
+    		</datalist>
+			<h5 class="letra_datos">WORK DESCRIPTION</h5>
+			<textarea class="input_datos" class="letra">Reparacion de computadoras</textarea>
+			<h5 class="letra_datos">DATE</h5>
+			<input class="input_datos" type="date" class="letra" value="2015-07-21">
+			<h5 class="letra_datos">NOTES</h5>
+			<textarea class="input_datos" class="letra">Fallo del procesador</textarea>
+			<a href="chambas.html" class="letra"><div class="btn_rojo">CANCEL</div></a>
+			<a href="chambas.html" class="letra"><div class="btn_verde">SAVE</div></a>
+		</div>
+
 	</div>
+
 </body>
 </html>

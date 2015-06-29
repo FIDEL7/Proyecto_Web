@@ -14,8 +14,8 @@
 				</div>
 				<ul id="izquierda">
 					<li><a href="clientes.html">CLIENTS</a></li>
-					<li><a href="">CHAMBAS</a></li>
-					<li><a href="">INVOICES</a></li>
+					<li><a href="chambas.html">CHAMBAS</a></li>
+					<li><a href="facturas.html">INVOICES</a></li>
 				</ul>
 				<ul id="derecha" class="logo_user">
 					<li><a href="">HI FIDEL <i class="fa fa-user"></i></a></li>
@@ -29,9 +29,9 @@
 		<div id="contenerdor">
 			<div class="cliente">
 				<i class="fa fa-users"></i>
-				<h3 id="h3_cliente" class="letra">NEW INVOICE</h3>
+				<h3 id="h3_cliente" class="letra">EDIT INVOICE</h3>
 			</div>
-			<a href="nuevo_cliente.html">
+			<a href="nuevA_factura.html">
 				<div id="btn_derecha">
 					<div id="boton_cliente">
 						<h5 class="letra">NEW INVOICE</h5>
@@ -41,16 +41,20 @@
 		</div>
 
 		<div id="con_datos">
-			<h5 class="letra">CLIENT</h5>
-			<input class="input_datos" type="text" class="letra" value="Fidel Castro">
+			<h5 cclass="letra_datos">CLIENT</h5>
+			<input class="input_datos" type="text" class="letra" list="clientes" value="Fidel Castro">
+			<datalist id="clientes">
+    			<option value="Fidel Castro">
+    			<option value="Noelia Urpi">
+    		</datalist>
 			<h5 class="letra_datos">DESCRIPTION</h5>
 			<textarea class="input_datos" class="letra">Arreglo de equipo de computo</textarea>
 			<h5 class="letra_datos">DATE</h5>
-			<input class="input_datos" type="date" class="letra" value="01/02/1996">
+			<input class="input_datos" type="date" class="letra" value="1996-02-01">
 			<h5 class="letra_datos">AMOUNT</h5>
 			<input class="input_datos" type="text" class="letra" value="$250">
-			<a href="" class="letra"><div class="btn_rojo">CANCEL</div></a>
-			<a href="" class="letra"><div class="btn_verde">SAVE</div></a>
+			<a href="facturas.html" class="letra"><div class="btn_rojo">CANCEL</div></a>
+			<a href="facturas.html" class="letra"><div class="btn_verde">SAVE</div></a>
 		</div>
 
 	</div>
